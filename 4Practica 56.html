@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<!--esta es mi practica 56-->
+
+<head>
+    <title>Practica 56</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <script>
+        var a = [15, , 45, , 56];
+        document.write('This is the vector tour with a classic ford.');
+        document.write('<br>');
+        var f;
+        for (f = 0; f < a.length; f++) {
+            document.write('<br>');
+            document.write(a[f]);
+        }
+        document.write('<br>');
+        document.write('This is the path of the vector with a for in.');
+        document.write('<br>');
+        var star;
+        for (star in a) {
+            document.write(a[star]);
+            document.write('<br>');
+        }
+    </script>
+</body>
+
+</html>
